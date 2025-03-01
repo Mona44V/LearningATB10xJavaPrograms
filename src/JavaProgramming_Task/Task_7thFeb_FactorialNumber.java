@@ -1,13 +1,17 @@
 package JavaProgramming_Task;
 
+import java.util.Scanner;
+
 public class Task_7thFeb_FactorialNumber {
     public static void main(String[] args){
-        System.out.println("Sum Calculation starts from 1 upto 100");
-        int sum=0;
-        for (int num=1; num<=100;++num)
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter the Number for Factorial Calculation");
+        int num= sc.nextInt();
+        int Cal=1;
+        for (int i=num; i>=1;--i)
         {
-            sum=sum+num;
+            Cal=Cal*num;
         }
-        System.out.println("Sum from 1 to 100 is: "+sum);
+        System.out.println("Factorial of input number is: "+Cal);
     }
 }

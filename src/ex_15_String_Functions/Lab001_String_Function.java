@@ -1,4 +1,5 @@
 package ex_15_String_Functions;
+import java.lang.String;
 
 public class Lab001_String_Function {
     public static void main(String[] args) {

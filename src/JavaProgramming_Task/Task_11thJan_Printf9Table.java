@@ -1,8 +1,6 @@
-package ex_02_Java_Basics;
+package JavaProgramming_Task;
 
-import java.sql.SQLOutput;
-
-public class Lab002_Variables {
+public class Task_11thJan_Printf9Table {
     public static void main(String[] args) {
 
         int a = 1;
